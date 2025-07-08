@@ -1,10 +1,10 @@
 {
     "name": "MosesApps",
-    "description": "Software Developer",
-    "subDescription": "Flutter & Web-Dev. Enthusiast",
+    "description": "Flutter Developer & App Developer",
+    "subDescription": "Flutter • Typescript • Wordpress Enthusiast",
     "contacts": [
         {
-            "tooltip": "GitHub",
+            "tooltip": "Github",
             "url": "https://github.com/Finimento",
             "icon": {
                 "codePoint": "0xefb7",
@@ -12,16 +12,16 @@
             }
         },
         {
-            "tooltip": "Email",
-            "url": "mailto:kontakt@mosesapps.de",
+            "tooltip": "LinkedIn",
+            "url": "https://www.linkedin.com/in/mosesapps",
             "icon": {
                 "codePoint": "0xeffb",
                 "fontFamily": "FontAwesome"
             }
         },
         {
-            "tooltip": "mosesapps.de",
-            "url": "https://mosesapps.de",
+            "tooltip": "Malt",
+            "url": "https://www.malt.de/profile/mosesfinimento",
             "icon": {
                 "codePoint": "0xeac9",
                 "fontFamily": "FontAwesome"
@@ -38,16 +38,16 @@
     ],
     "resumes": [
         {
-            "languageCode": "de",
+            "languageCode": "en",
             "url": "https://mosesapps.de/lebenslauf"
         }
     ],
-    "aboutDescription": "As a passionate software developer, I focus on building accessible and meaningful digital solutions. My core skills lie in Flutter, TypeScript, and modern web technologies. I enjoy building apps that improve people's quality of life — especially in health-related contexts like EoE.",
+    "aboutDescription": "I am a passionate developer specialized in Flutter, with solid knowledge in Wordpress and TypeScript. My goal is to develop applications that make life easier and better. Currently, I focus on web and mobile applications as well as individual software solutions.",
     "experiences": [
         {
-            "role": "Flutter & Web Entwickler",
+            "role": "Flutter & Web Developer",
             "company": "MosesApps",
-            "description": "Entwicklung von Web- und mobilen Anwendungen, u.a. Flutter, Typescript, WordPress, Webflow.",
+            "description": "Development of web and mobile applications, including Flutter, Typescript, WordPress, Webflow.",
             "isPresent": true,
             "startYear": 2023,
             "technologies": [
@@ -58,7 +58,7 @@
                     }
                 },
                 {
-                    "name": "Typescript",
+                    "name": "TypeScript",
                     "icon": {
                         "assetName": "assets/icons/software-development/typescript.svg"
                     }
@@ -78,9 +78,9 @@
             ]
         },
         {
-            "role": "Webentwickler",
+            "role": "Web Developer",
             "company": "Iuvare-Gruppe",
-            "description": "WordPress-Webentwicklung und Mediengestaltung.",
+            "description": "WordPress web development and media design.",
             "isPresent": false,
             "startYear": 2020,
             "endYear": 2023,
@@ -106,9 +106,9 @@
             ]
         },
         {
-            "role": "Frontend-Manager",
+            "role": "Frontend Manager",
             "company": "Arvato-Bertelsmann",
-            "description": "Frontend-Entwicklung und Management mit JavaScript, SQL und PHP.",
+            "description": "Frontend development and management using JavaScript, SQL, and PHP.",
             "startYear": 2017,
             "endYear": 2020,
             "technologies": [
@@ -133,18 +133,56 @@
             ]
         },
         {
-            "role": "IT-Systemkaufmann (Ausbildung)",
+            "role": "IT System Management Assistant (Training)",
             "company": "Optimal Systems",
-            "description": "Ausbildung zum IT-Systemkaufmann.",
+            "description": "Training as an IT System Management Assistant.",
             "startYear": 2014,
             "endYear": 2017
         }
     ],
-    "present": "Present",
+    "present": "Currently",
     "projects": [
         {
-            "name": "Waldhotel Suellhof",
-            "description": "Hotel website including reservation inquiry form, gallery, contact info, and regional information. Built in WordPress using Divi.",
+            "name": "Scaneater",
+            "description": "Flutter-based health app for documenting food and symptoms.",
+            "url": "https://github.com/Finimento/scaneater",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "screenshotPath": "assets/images/cpor.png",
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Portfolio Website",
+            "description": "Portfolio website based on Flutter Web.",
+            "url": "https://mosesapps.de",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "screenshotPath": "assets/images/portfolio.png",
+            "technologies": [
+                {
+                    "name": "Flutter",
+                    "icon": {
+                        "assetName": "assets/icons/software-development/flutter.svg"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Waldhotel Süllhof",
+            "description": "Company website of Waldhotel Süllhof.",
             "url": "http://waldhotel-suellhof.de/",
             "icon": {
                 "codePoint": "0xefb7",
@@ -158,61 +196,6 @@
                     "icon": {
                         "assetName": "assets/icons/software-development/wordpress.svg"
                     }
-                },
-                {
-                    "name": "PHP",
-                    "icon": {
-                        "codePoint": "0xef29",
-                        "fontFamily": "BoxIcons"
-                    }
-                },
-                {
-                    "name": "Divi",
-                    "icon": {
-                        "assetName": "assets/icons/other/divi.svg"
-                    }
-                }
-            ],
-            "links": [
-                {
-                    "url": "http://waldhotel-suellhof.de/",
-                    "display": "Visit the Waldhotel Website"
-                }
-            ]
-        },
-        {
-            "name": "Portfolio-Webseite",
-            "description": "Portfolio-Website basierend auf Flutter-Web.",
-            "url": "https://mosesapps.de",
-            "icon": {
-                "codePoint": "0xefb7",
-                "fontFamily": "FontAwesome",
-                "color": "0xffffffff"
-            },
-            "technologies": [
-                {
-                    "name": "Flutter",
-                    "icon": {
-                        "assetName": "assets/icons/software-development/flutter.svg"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "Waldhotel Süllhof",
-            "description": "Unternehmenswebsite des Waldhotel Süllhof.",
-            "url": "http://waldhotel-suellhof.de/",
-            "icon": {
-                "codePoint": "0xefb7",
-                "fontFamily": "FontAwesome",
-                "color": "0xffffffff"
-            },
-            "technologies": [
-                {
-                    "name": "WordPress",
-                    "icon": {
-                        "assetName": "assets/icons/software-development/wordpress.svg"
-                    }
                 }
             ]
         }
@@ -220,7 +203,7 @@
     "languages": [
         {
             "code": "de",
-            "name": "Deutsch",
+            "name": "German",
             "nativeName": "Deutsch",
             "icon": {
                 "assetName": "assets/icons/flags/germany.svg"
@@ -228,7 +211,7 @@
         },
         {
             "code": "en",
-            "name": "Englisch",
+            "name": "English",
             "nativeName": "English",
             "icon": {
                 "assetName": "assets/icons/flags/united-states-of-america.svg"
@@ -236,18 +219,18 @@
         }
     ],
     "bottomBanner": {
-        "message": "Open-Source Portfolio -",
-        "displayLink": "Jetzt forken",
+        "message": "Source code -",
+        "displayLink": "view on GitHub",
         "linkUrl": "https://github.com/Finimento/mosesapps.github.io"
     },
-    "portfolio": "Portfolio",
-    "homeSectionTitle": "Startseite",
-    "aboutSectionTitle": "Über mich",
-    "aboutSectionTitleAlt": "Über mich",
-    "experienceSectionTitle": "Erfahrung",
-    "projectsSectionTitle": "Projekte",
-    "resume": "Lebenslauf",
-    "downloadResume": "Lebenslauf herunterladen",
-    "openUrlError": "URL konnte nicht geöffnet werden",
-    "unknownLanguageError": "Unbekannte Sprache"
+    "portfolio": "MosesApps",
+    "homeSectionTitle": "Home",
+    "aboutSectionTitle": "About Me",
+    "aboutSectionTitleAlt": "About Me",
+    "experienceSectionTitle": "Experience",
+    "projectsSectionTitle": "Projects",
+    "resume": "Resume",
+    "downloadResume": "Download resume",
+    "openUrlError": "Could not open URL",
+    "unknownLanguageError": "Unknown language"
 }
