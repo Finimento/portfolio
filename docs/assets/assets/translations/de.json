@@ -21,7 +21,7 @@
     },
     {
       "tooltip": "Malt",
-      "url": "https://www.malt.de/profile/mosesapps",
+      "url": "https://www.malt.de/profile/mosesfinimento",
       "icon": {
         "codePoint": "0xeac9",
         "fontFamily": "FontAwesome"
@@ -223,7 +223,7 @@
     "displayLink": "auf GitHub ansehen",
     "linkUrl": "https://github.com/Finimento/mosesapps.github.io"
   },
-  "portfolio": "Portfolio",
+  "portfolio": "MosesApps",
   "homeSectionTitle": "Startseite",
   "aboutSectionTitle": "Über mich",
   "aboutSectionTitleAlt": "Über mich",

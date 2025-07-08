@@ -31,6 +31,7 @@ class GeneralDesktop extends ConsumerWidget {
               Row(
                 children: [
                   Expanded(
+                    flex: 1,
                     child: Listener(
                       onPointerSignal: (PointerSignalEvent event) {
                         if (event is PointerScrollEvent) {
@@ -48,7 +49,7 @@ class GeneralDesktop extends ConsumerWidget {
                       child: MySelectionArea(
                         child: Container(
                           padding: const EdgeInsets.fromLTRB(100, 80, 100, 100),
-                          color: Theme.of(context).colorScheme.primary,
+                          color: Theme.of(context).colorScheme.inversePrimary,
                           child: const Align(
                             alignment: Alignment.topRight,
                             child: AnimatedFadeSlide(
@@ -61,6 +62,7 @@ class GeneralDesktop extends ConsumerWidget {
                     ),
                   ),
                   Expanded(
+                    flex: 2,
                     child: MySelectionArea(
                       child: Container(
                         color: Theme.of(context).colorScheme.primary,
@@ -70,11 +72,11 @@ class GeneralDesktop extends ConsumerWidget {
                             top: 80,
                             end: 140,
                             bottom: 88,
+                            start: 100,
                           ),
                           child: Align(
                             alignment: Alignment.topLeft,
                             child: SizedBox(
-                              width: 520,
                               child: AnimatedFadeSlide(
                                 offset: const Offset(128, 0),
                                 child: Column(
