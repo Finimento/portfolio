@@ -1,68 +1,55 @@
 {
-    "name": "Aladdine Abdou",
-    "description": "Mobile App Developer",
-    "subDescription": "Flutter & Python Enthusiast",
+    "name": "Moses Brunner",
+    "description": "Software Developer",
+    "subDescription": "Flutter & Web-Dev. Enthusiast",
     "contacts": [
         {
-            "tooltip": "Github",
-            "url": "https://github.com/AladdineDev",
+            "tooltip": "GitHub",
+            "url": "https://github.com/Finimento",
             "icon": {
                 "codePoint": "0xefb7",
                 "fontFamily": "FontAwesome"
             }
         },
         {
-            "tooltip": "Twitter",
-            "url": "https://twitter.com/AladdineDev",
-            "icon": {
-                "codePoint": "0xf0ea",
-                "fontFamily": "FontAwesome"
-            }
-        },
-        {
-            "tooltip": "LinkedIn",
-            "url": "https://www.linkedin.com/in/aladdine-dev",
+            "tooltip": "Email",
+            "url": "mailto:kontakt@mosesapps.de",
             "icon": {
                 "codePoint": "0xeffb",
                 "fontFamily": "FontAwesome"
             }
         },
         {
-            "tooltip": "aladdine.dev@gmail.com",
-            "url": "mailto:aladdine.dev@gmail.com",
+            "tooltip": "mosesapps.de",
+            "url": "https://mosesapps.de",
             "icon": {
-                "codePoint": "0xeaad",
+                "codePoint": "0xeac9",
                 "fontFamily": "FontAwesome"
             }
         },
         {
-            "tooltip": "+33 7 82 54 34 70",
-            "url": "tel:+33782543470",
+            "tooltip": "info@mosesapps.de",
+            "url": "mailto:info@mosesapps.de",
             "icon": {
-                "codePoint": "0xecbb",
+                "codePoint": "0xeaad",
                 "fontFamily": "FontAwesome"
             }
         }
     ],
     "resumes": [
         {
-            "languageCode": "en",
-            "url": "https://drive.google.com/file/d/1grh7cajOEiqXWx__dawOwq9WgGLb4mbn/view?usp=sharing"
-        },
-        {
-            "languageCode": "fr",
-            "url": "https://drive.google.com/file/d/1SEDu-wdXXsYXX48Ee3EKLg7YhdKyt72U/view?usp=sharing"
+            "languageCode": "de",
+            "url": "https://mosesapps.de/lebenslauf"
         }
     ],
-    "aboutDescription": "I'm a mobile app developer passionate about turning ideas into user-centric applications.\nWith 3+ years of experience working with Flutter, I've built and shipped apps across diverse fields — from show quality and field operations to food tech and wholesale.\nMy interests also include embedded systems, cybersecurity, and game design, where I enjoy exploring the creative intersections between these domains.\nI'm driven by building meaningful products and contributing to innovative, challenging projects.",
+    "aboutDescription": "As a passionate software developer, I focus on building accessible and meaningful digital solutions. My core skills lie in Flutter, TypeScript, and modern web technologies. I enjoy building apps that improve people's quality of life — especially in health-related contexts like EoE.",
     "experiences": [
         {
-            "role": "Mobile App Developer",
-            "company": "Linnovlab",
-            "description": "Development of a digital ecosystem for restaurants notably POS systems, kiosks, and dashboards, enabling a seamless user experience with real-time and offline features.",
+            "role": "Flutter & Web Entwickler",
+            "company": "MosesApps",
+            "description": "Entwicklung von Web- und mobilen Anwendungen, u.a. Flutter, Typescript, WordPress, Webflow.",
             "isPresent": true,
             "startYear": 2023,
-            "endYear": 2025,
             "technologies": [
                 {
                     "name": "Flutter",
@@ -71,273 +58,105 @@
                     }
                 },
                 {
-                    "name": "Dart",
+                    "name": "Typescript",
                     "icon": {
-                        "assetName": "assets/icons/other/dart.svg"
+                        "assetName": "assets/icons/software-development/typescript.svg"
                     }
                 },
                 {
-                    "name": "GraphQL",
+                    "name": "WordPress",
                     "icon": {
-                        "assetName": "assets/icons/software-development/graphql.svg"
+                        "assetName": "assets/icons/software-development/wordpress.svg"
                     }
                 },
                 {
-                    "name": "PostgreSQL",
+                    "name": "Webflow",
                     "icon": {
-                        "assetName": "assets/icons/software-development/postgresql.svg"
+                        "assetName": "assets/icons/software-development/webflow.svg"
                     }
-                },
-                {
-                    "name": "Docker",
-                    "icon": {
-                        "assetName": "assets/icons/software-development/docker.svg"
-                    }
-                },
-                {
-                    "name": "AWS",
-                    "icon": {
-                        "codePoint": "0xeed1",
-                        "fontFamily": "BoxIcons"
-                    }
-                }
-            ],
-            "links": [
-                {
-                    "url": "https://linnovlab.com",
-                    "display": "Linnovlab"
-                },
-                {
-                    "url": "https://apps.apple.com/fr/app/caisse-digital-foody/id6664054501",
-                    "display": "Digital Foody POS - iOS"
                 }
             ]
         },
         {
-            "role": "Mobile App Developer",
-            "company": "Walt Disney Imagineering",
-            "description": "Development of an offline-first mobile snagging application for Disneyland Paris, streamlining information gathering for technical experts in the field and enhancing communication with maintenance services for problem-solving.",
+            "role": "Webentwickler",
+            "company": "Iuvare-Gruppe",
+            "description": "WordPress-Webentwicklung und Mediengestaltung.",
             "isPresent": false,
-            "startYear": 2022,
+            "startYear": 2020,
             "endYear": 2023,
             "technologies": [
                 {
-                    "name": "Flutter",
+                    "name": "WordPress",
                     "icon": {
-                        "assetName": "assets/icons/software-development/flutter.svg"
+                        "assetName": "assets/icons/software-development/wordpress.svg"
                     }
                 },
                 {
-                    "name": "Dart",
+                    "name": "Elementor",
                     "icon": {
-                        "assetName": "assets/icons/other/dart.svg"
+                        "assetName": "assets/icons/software-development/elementor.svg"
                     }
                 },
                 {
-                    "name": "Django",
+                    "name": "Divi",
                     "icon": {
-                        "codePoint": "0xeee7",
-                        "fontFamily": "BoxIcons"
+                        "assetName": "assets/icons/software-development/divi.svg"
                     }
-                },
-                {
-                    "name": "Python",
-                    "icon": {
-                        "assetName": "assets/icons/software-development/python.svg"
-                    }
-                },
-                {
-                    "name": "PostgreSQL",
-                    "icon": {
-                        "assetName": "assets/icons/software-development/postgresql.svg"
-                    }
-                },
-                {
-                    "name": "SQLite",
-                    "icon": {
-                        "codePoint": "0xe944",
-                        "fontFamily": "OctIcons"
-                    }
-                },
-                {
-                    "name": "Docker",
-                    "icon": {
-                        "assetName": "assets/icons/software-development/docker.svg"
-                    }
-                },
-                {
-                    "name": "AWS",
-                    "icon": {
-                        "codePoint": "0xeed1",
-                        "fontFamily": "BoxIcons"
-                    }
-                }
-            ],
-            "links": [
-                {
-                    "url": "https://sites.disney.com/waltdisneyimagineering/",
-                    "display": "Walt Disney Imagineering"
                 }
             ]
         },
         {
-            "role": "Mobile App Developer",
-            "company": "Solutions Multi Techniques",
-            "description": "Development of a Progressive Web App for security system technicians, enabling them to generate comprehensive PDF quotes. This allows for the immediate delivery of quotes to clients after their visit, thereby increasing the conversion rate.",
-            "startYear": 2022,
-            "startMonth": 1,
-            "endYear": 2022,
-            "endMonth": 2,
+            "role": "Frontend-Manager",
+            "company": "Arvato-Bertelsmann",
+            "description": "Frontend-Entwicklung und Management mit JavaScript, SQL und PHP.",
+            "startYear": 2017,
+            "endYear": 2020,
             "technologies": [
                 {
-                    "name": "Flutter",
-                    "icon": {
-                        "assetName": "assets/icons/software-development/flutter.svg"
-                    }
-                },
-                {
-                    "name": "Dart",
-                    "icon": {
-                        "assetName": "assets/icons/other/dart.svg"
-                    }
-                },
-                {
-                    "name": "Firebase",
-                    "icon": {
-                        "assetName": "assets/icons/other/firebase.svg"
-                    }
-                }
-            ],
-            "links": [
-                {
-                    "url": "https://www.smt-alarme-videosurveillance.com",
-                    "display": "Solutions Multi Techniques"
-                }
-            ]
-        },
-        {
-            "role": "Web Developer",
-            "company": "Association FAIRE",
-            "description": "Development of the association's website, in collaboration with a group of developers. It provides visitors with the opportunity to learn more about the association and become members.\nTo date, the website has attracted over 10,000 visits.",
-            "startYear": 2021,
-            "startMonth": 5,
-            "endYear": 2021,
-            "endMonth": 6,
-            "technologies": [
-                {
-                    "name": "HTML",
-                    "icon": {
-                        "assetName": "assets/icons/software-development/html-5.svg"
-                    }
-                },
-                {
-                    "name": "CSS",
-                    "icon": {
-                        "assetName": "assets/icons/software-development/css3.svg"
-                    }
-                },
-                {
-                    "name": "Javascript",
+                    "name": "JavaScript",
                     "icon": {
                         "assetName": "assets/icons/software-development/javascript.svg"
                     }
                 },
                 {
-                    "name": "PHP",
+                    "name": "SQL",
                     "icon": {
-                        "codePoint": "0xef29",
-                        "fontFamily": "BoxIcons"
+                        "assetName": "assets/icons/software-development/sql.svg"
                     }
                 },
                 {
-                    "name": "MariaDB",
+                    "name": "PHP",
                     "icon": {
-                        "assetName": "assets/icons/software-development/mariadb.svg"
+                        "assetName": "assets/icons/software-development/php.svg"
                     }
                 }
-            ],
-            "links": [
-                {
-                    "url": "https://www.association-faire.fr",
-                    "display": "Association FAIRE"
-                }
             ]
+        },
+        {
+            "role": "IT-Systemkaufmann (Ausbildung)",
+            "company": "Optimal Systems",
+            "description": "Ausbildung zum IT-Systemkaufmann.",
+            "startYear": 2014,
+            "endYear": 2017
         }
     ],
     "present": "Present",
     "projects": [
         {
-            "name": "Portfolio",
-            "description": "This open source project allows anyone to have an online portfolio in less than 10 minutes. It follows a riverpod-based architecture, using a feature-first approach for its structure. It is fully responsive and supports multiple themes as well as multiple languages.",
-            "url": "https://github.com/AladdineDev/portfolio#readme",
+            "name": "Waldhotel Suellhof",
+            "description": "Hotel website including reservation inquiry form, gallery, contact info, and regional information. Built in WordPress using Divi.",
+            "url": "http://waldhotel-suellhof.de/",
             "icon": {
                 "codePoint": "0xefb7",
                 "fontFamily": "FontAwesome",
                 "color": "0xffffffff"
             },
-            "screenshotPath": "assets/images/portfolio.png",
+            "screenshotPath": "assets/images/waldhotel.png",
             "technologies": [
                 {
-                    "name": "Flutter",
+                    "name": "WordPress",
                     "icon": {
-                        "assetName": "assets/icons/software-development/flutter.svg"
-                    }
-                },
-                {
-                    "name": "Dart",
-                    "icon": {
-                        "assetName": "assets/icons/other/dart.svg"
-                    }
-                }
-            ],
-            "links": [
-                {
-                    "url": "https://brittanychiang.com",
-                    "display": "Inspired by Brittany Chiang"
-                }
-            ]
-        },
-        {
-            "name": "Learn Flow Backoffice",
-            "description": "Learn Flow is a collaborative project focused on creating a solution that connects students and teachers. This is the back-office build for managers in the Learn Flow project. This Single-Page App enables them to monitor activity such as user traffic and invoices associated with their applications and users.",
-            "url": "https://github.com/AladdineDev/learnflow_backoffice#readme",
-            "icon": {
-                "codePoint": "0xefb7",
-                "fontFamily": "FontAwesome",
-                "color": "0xffffffff"
-            },
-            "screenshotPath": "assets/images/learnflow-backoffice.png",
-            "technologies": [
-                {
-                    "name": "Flutter",
-                    "icon": {
-                        "assetName": "assets/icons/software-development/flutter.svg"
-                    }
-                },
-                {
-                    "name": "Dart",
-                    "icon": {
-                        "assetName": "assets/icons/other/dart.svg"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "GSB-Frais",
-            "description": "The GSB-Frais project is a web-based expense management application developed for medical representatives and accountants at the fictional company GSB. It facilitates the entry and review of monthly reports by medical representatives, while enabling accountants to process them.",
-            "url": "https://github.com/AladdineDev/GSB-Frais#readme",
-            "icon": {
-                "codePoint": "0xefb7",
-                "fontFamily": "FontAwesome",
-                "color": "0xffffffff"
-            },
-            "screenshotPath": "assets/images/gsb-frais.png",
-            "technologies": [
-                {
-                    "name": "Symfony",
-                    "icon": {
-                        "codePoint": "0xf0ab",
-                        "fontFamily": "FontAwesome"
+                        "assetName": "assets/icons/software-development/wordpress.svg"
                     }
                 },
                 {
@@ -348,21 +167,51 @@
                     }
                 },
                 {
-                    "name": "Bootstrap",
+                    "name": "Divi",
                     "icon": {
-                        "assetName": "assets/icons/other/bootstrap.svg"
+                        "assetName": "assets/icons/other/divi.svg"
                     }
-                },
+                }
+            ],
+            "links": [
                 {
-                    "name": "MariaDB",
+                    "url": "http://waldhotel-suellhof.de/",
+                    "display": "Visit Waldhotel Website"
+                }
+            ]
+        },
+        {
+            "name": "Portfolio-Webseite",
+            "description": "Portfolio-Website basierend auf Flutter-Web.",
+            "url": "https://mosesapps.de",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "technologies": [
+                {
+                    "name": "Flutter",
                     "icon": {
-                        "assetName": "assets/icons/software-development/mariadb.svg"
+                        "assetName": "assets/icons/software-development/flutter.svg"
                     }
-                },
+                }
+            ]
+        },
+        {
+            "name": "Waldhotel Süllhof",
+            "description": "Unternehmenswebsite des Waldhotel Süllhof.",
+            "url": "http://waldhotel-suellhof.de/",
+            "icon": {
+                "codePoint": "0xefb7",
+                "fontFamily": "FontAwesome",
+                "color": "0xffffffff"
+            },
+            "technologies": [
                 {
-                    "name": "Docker",
+                    "name": "WordPress",
                     "icon": {
-                        "assetName": "assets/icons/software-development/docker.svg"
+                        "assetName": "assets/icons/software-development/wordpress.svg"
                     }
                 }
             ]
@@ -370,35 +219,35 @@
     ],
     "languages": [
         {
+            "code": "de",
+            "name": "Deutsch",
+            "nativeName": "Deutsch",
+            "icon": {
+                "assetName": "assets/icons/flags/germany.svg"
+            }
+        },
+        {
             "code": "en",
-            "name": "English",
+            "name": "Englisch",
             "nativeName": "English",
             "icon": {
                 "assetName": "assets/icons/flags/united-states-of-america.svg"
             }
-        },
-        {
-            "code": "fr",
-            "name": "French",
-            "nativeName": "Français",
-            "icon": {
-                "assetName": "assets/icons/flags/france.svg"
-            }
         }
     ],
     "bottomBanner": {
-        "message": "Open source portfolio -",
-        "displayLink": "Fork it",
-        "linkUrl": "https://github.com/AladdineDev/portfolio#readme"
+        "message": "Open-Source Portfolio -",
+        "displayLink": "Jetzt forken",
+        "linkUrl": "https://github.com/Finimento/mosesapps.github.io"
     },
     "portfolio": "Portfolio",
-    "homeSectionTitle": "Home",
-    "aboutSectionTitle": "About",
-    "aboutSectionTitleAlt": "About Me",
-    "experienceSectionTitle": "Experience",
-    "projectsSectionTitle": "Projects",
-    "resume": "Resume",
-    "downloadResume": "Download resume",
-    "openUrlError": "Could not open the url",
-    "unknownLanguageError": "Language unknown"
+    "homeSectionTitle": "Startseite",
+    "aboutSectionTitle": "Über mich",
+    "aboutSectionTitleAlt": "Über mich",
+    "experienceSectionTitle": "Erfahrung",
+    "projectsSectionTitle": "Projekte",
+    "resume": "Lebenslauf",
+    "downloadResume": "Lebenslauf herunterladen",
+    "openUrlError": "URL konnte nicht geöffnet werden",
+    "unknownLanguageError": "Unbekannte Sprache"
 }

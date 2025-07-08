@@ -20,9 +20,9 @@ class MyApp extends ConsumerWidget {
       theme: themes.lightTheme,
       darkTheme: themes.darkTheme,
       themeMode: ref.watch(darkModeProvider).maybeWhen(
-            data: (darkMode) => darkMode ? ThemeMode.dark : ThemeMode.light,
-            orElse: () => ThemeMode.system,
-          ),
+        data: (darkMode) => darkMode ? ThemeMode.dark : ThemeMode.light,
+        orElse: () => ThemeMode.light,
+      ),
       home: const GeneralSection(),
     );
   }
