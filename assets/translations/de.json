@@ -162,20 +162,20 @@
       ]
     },
     {
-      "name": "Portfolio-Webseite",
-      "description": "Portfolio-Website basierend auf Flutter-Web.",
-      "url": "https://mosesapps.de",
+      "name": "Finimento",
+      "description": "Eine Unternehmenswebsite für die Online-Präsentation eines Softwareherstellers.",
+      "url": "https://finimento-0.webflow.io/",
       "icon": {
         "codePoint": "0xefb7",
         "fontFamily": "FontAwesome",
         "color": "0xffffffff"
       },
-      "screenshotPath": "assets/images/portfolio.png",
+      "screenshotPath": "assets/images/webflow.png",
       "technologies": [
         {
           "name": "Flutter",
           "icon": {
-            "assetName": "assets/icons/software-development/flutter.svg"
+            "assetName": "assets/icons/software-development/webflow.svg"
           }
         }
       ]
