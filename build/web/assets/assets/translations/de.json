@@ -173,7 +173,7 @@
       "screenshotPath": "assets/images/webflow.png",
       "technologies": [
         {
-          "name": "Flutter",
+          "name": "Webflow",
           "icon": {
             "assetName": "assets/icons/software-development/webflow.svg"
           }
