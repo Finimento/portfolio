@@ -143,25 +143,6 @@
   "present": "Derzeit",
   "projects": [
     {
-      "name": "Scaneater",
-      "description": "Flutter-basierte Gesundheits-App zur Nahrungsmittel- und Beschwerdendokumentation.",
-      "url": "https://github.com/Finimento/scaneater",
-      "icon": {
-        "codePoint": "0xefb7",
-        "fontFamily": "FontAwesome",
-        "color": "0xffffffff"
-      },
-      "screenshotPath": "assets/images/cpor.png",
-      "technologies": [
-        {
-          "name": "Flutter",
-          "icon": {
-            "assetName": "assets/icons/software-development/flutter.svg"
-          }
-        }
-      ]
-    },
-    {
       "name": "Finimento",
       "description": "Eine Unternehmenswebsite für die Online-Präsentation eines Softwareherstellers.",
       "url": "https://finimento-0.webflow.io/",
@@ -176,6 +157,25 @@
           "name": "Webflow",
           "icon": {
             "assetName": "assets/icons/software-development/webflow.svg"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Scaneater",
+      "description": "Flutter-basierte Gesundheits-App zur Nahrungsmittel- und Beschwerdendokumentation.",
+      "url": "https://github.com/Finimento/scaneater",
+      "icon": {
+        "codePoint": "0xefb7",
+        "fontFamily": "FontAwesome",
+        "color": "0xffffffff"
+      },
+      "screenshotPath": "assets/images/cpor.png",
+      "technologies": [
+        {
+          "name": "Flutter",
+          "icon": {
+            "assetName": "assets/icons/software-development/flutter.svg"
           }
         }
       ]

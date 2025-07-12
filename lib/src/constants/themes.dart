@@ -1,12 +1,12 @@
 import 'package:flex_color_scheme/flex_color_scheme.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:portfolio/src/common/widgets/responsive.dart';
 
 // Made for FlexColorScheme version 7.0.0. Make sure you
 // use same or higher package version, but still same major version.
 // If you use a lower version, some properties may not be supported.
 // In that case remove them after copying this theme to your app.
-
 final lightTheme = FlexThemeData.light(
   colors: const FlexSchemeColor(
     primary: Color(0xffbfd7ed),

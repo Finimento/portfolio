@@ -10,4 +10,5 @@ mkdir docs
 cp -r build/web/* docs/
 git add ./*
 git commit -m "copy the builded Website into docs before push."
+git pull --rebase origin main
 git push origin main

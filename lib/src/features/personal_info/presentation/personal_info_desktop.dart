@@ -1,6 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:portfolio/src/common/widgets/responsive.dart';
 import 'package:portfolio/src/constants/sizes.dart';
 import 'package:portfolio/src/features/personal_info/data/personal_info_repository.dart';
 import 'package:portfolio/src/features/personal_info/domain/resume.dart';
@@ -19,11 +20,13 @@ class PersonalInfoDesktop extends ConsumerWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
-          tr(LocaleKeys.name),
-          style: Theme.of(context).textTheme.displayLarge,
+        FittedBox(
+          child: Text(
+            tr(LocaleKeys.name),
+            style: Theme.of(context).textTheme.displayLarge
+          ),
         ),
-        gapH4,
+        gapH20,
         Text(
           tr(LocaleKeys.description),
           style: Theme.of(context).textTheme.titleLarge,
