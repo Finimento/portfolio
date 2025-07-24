@@ -39,7 +39,7 @@ class MyAppBar extends ConsumerWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       SvgPicture.asset(
-                        'assets/icons/moses_apps_icons/ElternKind_Final_ineinander.svg',
+                        'icons/moses_apps_icons/ElternKind_Final_ineinander.svg',
                         height: 32, // oder width: 32, je nach Layout
                       ),
                       const SizedBox(width: 12),

@@ -90546,7 +90546,7 @@ A.U2.prototype={
 c3(a,b){var s,r,q,p=this,o=null,n=A.V(a),m=A.V(a).p1.r
 m=m==null?o:m.yR(B.bq)
 s=t.p
-r=A.hS(A.fu(o,A.dp(A.asG(A.nK(A.ec(A.a([A.aS0("assets/icons/moses_apps_icons/ElternKind_Final_ineinander.svg",o,32,o),B.mm,A.ci(A.cH("portfolio"),o,o,o,o,o,o)],s),B.T,B.N,B.bu,o,o),B.be,B.a6Q)),56,o),B.ac,!1,o,o,o,o,o,o,o,o,o,o,o,o,o,o,new A.anL(p,a,b),o,o,o,o,o,o),B.aF,o,o,o,o,o,!0)
+r=A.hS(A.fu(o,A.dp(A.asG(A.nK(A.ec(A.a([A.aS0("icons/moses_apps_icons/ElternKind_Final_ineinander.svg",o,32,o),B.mm,A.ci(A.cH("portfolio"),o,o,o,o,o,o)],s),B.T,B.N,B.bu,o,o),B.be,B.a6Q)),56,o),B.ac,!1,o,o,o,o,o,o,o,o,o,o,o,o,o,o,new A.anL(p,a,b),o,o,o,o,o,o),B.aF,o,o,o,o,o,!0)
 q=A.a([],s)
 if(A.bO(a,B.b9,t.l).w.a.a>=1024)q.push(A.nK(A.ec(A.a([A.aJ5(new A.anM(p,b),A.cH("aboutSectionTitle")),A.aJ5(new A.anN(p,b),A.cH("experienceSectionTitle")),A.aJ5(new A.anO(p,b),A.cH("projectsSectionTitle")),p.a47(a,b),B.jj,B.pb,B.jj],s),B.T,B.N,B.R,o,o),B.be,B.a6y))
 return A.wl(new A.A_(r,q,0,n.ax.y,!1,new A.a4u(o,o,1/0,56),m,o),B.dA)},
