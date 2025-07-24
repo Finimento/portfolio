@@ -12,14 +12,6 @@
       }
     },
     {
-      "tooltip": "LinkedIn",
-      "url": "https://www.linkedin.com/in/mosesapps",
-      "icon": {
-        "codePoint": "0xeffb",
-        "fontFamily": "FontAwesome"
-      }
-    },
-    {
       "tooltip": "Malt",
       "url": "https://www.malt.de/profile/mosesfinimento",
       "icon": {

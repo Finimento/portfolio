@@ -1,5 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:portfolio/src/common/data/language_repository.dart';
 import 'package:portfolio/src/common/widgets/animated_fade_slide.dart';
@@ -37,11 +38,9 @@ class MyAppBar extends ConsumerWidget {
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
-                      const Icon(
-                        IconData(
-                          0xedc3,
-                          fontFamily: "FontAwesome",
-                        ),
+                      SvgPicture.asset(
+                        'assets/icons/moses_apps_icons/ElternKind_Final_ineinander.svg',
+                        height: 32, // oder width: 32, je nach Layout
                       ),
                       const SizedBox(width: 12),
                       Text(tr(LocaleKeys.portfolio)),

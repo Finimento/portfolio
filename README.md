@@ -1,4 +1,4 @@
-<img src="assets/images/logo.png" align="right" width="60px"/>
+<img src="assets/images/MosesApps_WebsiteLogo.png" align="right" width="60px"/>
 
 # Portfolio 💙 [![Stars](https://img.shields.io/github/stars/AladdineDev/portfolio?style=flat-square)](https://github.com/AladdineDev/portfolio/stargazers) [![Forks](https://img.shields.io/github/forks/AladdineDev/portfolio?style=flat-square)](https://github.com/AladdineDev/portfolio/forks?include=active&page=1&period=&sort_by=stargazer_counts)
 
