@@ -162,7 +162,7 @@
             ]
         },
         {
-            "name": "CPOR",
+            "name": "cpor",
             "description": "Flutter-based health app for documenting food and symptoms.",
             "url": "https://github.com/Finimento/scaneater",
             "icon": {

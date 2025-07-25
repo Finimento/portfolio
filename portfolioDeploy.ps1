@@ -4,50 +4,39 @@ param(
     [switch]$h
 )
 
-# Hilfe-Text
 if ($help -or $h) {
-    Write-Host @"
-Portfolio Deploy Skript
------------------------
-Automatisiert den gesamten Build- und Deploy-Prozess der Flutter-Portfolio-Webseite mit einem Befehl.
-
-Parameter:
-  -commit "Nachricht"    Setzt die Commit-Nachricht (Standard: 'Automatischer Commit')
-  -help, -h              Zeigt diese Hilfe an
-
-Nutzung:
-  .\deploy.ps1 -commit "Mein Commit"
-  .\deploy.ps1 -h
-
-Ablauf:
-- flutter clean
-- flutter pub get
-- Lokalisierung generieren
-- Web-Build erstellen
-- build/web nach docs/ kopieren
-- git add, commit, pull --rebase, push
-
-Hinweis:
-Im Projektverzeichnis ausführen (dort, wo pubspec.yaml liegt)!
-
-"@
+    Write-Host ""
+    Write-Host "==================== Anleitung ====================" -ForegroundColor Cyan
+    Write-Host "Dieses Skript automatisiert den Deploy-Prozess für dein Flutter-Portfolio." -ForegroundColor White
+    Write-Host ""
+    Write-Host "Nutzung:" -ForegroundColor White
+    Write-Host "  .\deploy.ps1 [-commit 'Deine Commit-Nachricht']" -ForegroundColor White
+    Write-Host ""
+    Write-Host "Parameter:" -ForegroundColor White
+    Write-Host "  -commit   Commit-Message für den Push (optional)" -ForegroundColor White
+    Write-Host "  -help/-h  Zeigt diese Hilfe an" -ForegroundColor White
+    Write-Host ""
+    Write-Host "Ablauf:" -ForegroundColor White
+    Write-Host "  - flutter clean, pub get, Übersetzungen generieren, Web-Build" -ForegroundColor White
+    Write-Host "  - kopiert Build nach docs/ und pusht alles zu GitHub" -ForegroundColor White
+    Write-Host "===================================================" -ForegroundColor Cyan
     exit 0
 }
 
 function PortfolioDeployStep($command, $message) {
-    Write-Host "`n🔄 $command" -ForegroundColor Cyan
+    Write-Host "`n[STEP] $command" -ForegroundColor Cyan
     Invoke-Expression $command
     if ($LASTEXITCODE -ne 0) {
-        Write-Host "`n❌ Fehler bei: $command" -ForegroundColor Red
+        Write-Host "`n[ERROR] Fehler bei: $command" -ForegroundColor Red
         exit $LASTEXITCODE
     } else {
-        Write-Host "✅ $message" -ForegroundColor Green
+        Write-Host "[OK] $message" -ForegroundColor Green
     }
 }
 
 # Optional: Verzeichnis prüfen
 if (-not (Test-Path ".\pubspec.yaml")) {
-    Write-Host "Falsches Verzeichnis! Wechsle ins Projektverzeichnis." -ForegroundColor Red
+    Write-Host "[ERROR] Falsches Verzeichnis! Wechsle ins Projektverzeichnis." -ForegroundColor Red
     exit 1
 }
 
@@ -64,7 +53,8 @@ PortfolioDeployStep "git commit -m '$commit'" "git commit abgeschlossen"
 PortfolioDeployStep "git pull --rebase origin main" "git pull --rebase abgeschlossen"
 PortfolioDeployStep "git push origin main" "git push abgeschlossen"
 
-# Unterstrichene Abschlussmeldung (Workaround)
-$underline = " " * 31 # Länge ggf. anpassen
-Write-Host "`n🎉 Alles erfolgreich erledigt!" -ForegroundColor Green
-Write-Host "$underline" -ForegroundColor Green
+# Abschlussmeldung unterstrichen
+$abschluss = "`n[DONE] Alles erfolgreich erledigt!"
+$underline = ("=" * ($abschluss.Length - 2))
+Write-Host $abschluss -ForegroundColor Green
+Write-Host $underline -ForegroundColor Green
