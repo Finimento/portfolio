@@ -1,5 +1,7 @@
 If you are finish to change youre Work, Do the following instructions before until push.
 
+Use the Terminal-Command "portfolioDeploy.ps1" in Project-Folder or execute the following commands successively to Build and Deploy:
+
 flutter clean
 flutter pub get
 dart run easy_localization:generate -S assets/translations -f keys -O lib/src/localization/generated -o locale_keys.g.dart
