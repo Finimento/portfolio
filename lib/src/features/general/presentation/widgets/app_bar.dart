@@ -1,4 +1,5 @@
 import 'package:easy_localization/easy_localization.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
@@ -12,6 +13,7 @@ import 'package:portfolio/src/features/general/presentation/widgets/locale_butto
 import 'package:portfolio/src/localization/generated/locale_keys.g.dart';
 import 'package:portfolio/src/features/general/provider/section_key_provider.dart';
 import 'package:portfolio/src/common/widgets/responsive.dart';
+import 'package:portfolio/src/utils/string_extension.dart';
 
 class MyAppBar extends ConsumerWidget {
   const MyAppBar({super.key});
@@ -39,7 +41,7 @@ class MyAppBar extends ConsumerWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       SvgPicture.asset(
-                        'icons/moses_apps_icons/ElternKind_Final_ineinander.svg',
+                        "assets/icons/moses_apps_icons/ElternKind_Final_ineinander.svg".forWeb(web: kIsWeb),
                         height: 32, // oder width: 32, je nach Layout
                       ),
                       const SizedBox(width: 12),

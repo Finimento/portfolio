@@ -52,6 +52,7 @@ flutter:
     - assets/fonts/
     - assets/icons/flags/
     - assets/icons/other/
+    - assets/icons/moses_apps_icons/
     - assets/icons/software-development/
     - assets/images/
     - assets/translations/

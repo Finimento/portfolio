@@ -6,3 +6,8 @@ extension StringExtension on String {
     }).join(" ");
   }
 }
+
+/// for using svg in assets
+extension SVGForWeb on String {
+  String forWeb({required bool web}) => web ? this.replaceFirst('assets/','') : this;
+}
